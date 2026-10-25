@@ -1,0 +1,30 @@
+.venv/
+.venv313/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dataset downloads and the cleaned image set. Share these outside git.
+data/raw/
+data/processed/
+
+# Training runs, plots, and checkpoints.
+runs/
+artifacts/
+reports/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.zip
+
+# Generated at train time
+configs/ppe_normalized_v2.resolved.yaml
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
